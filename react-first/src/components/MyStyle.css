@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Mukta:wght@200&family=Nanum+Pen+Script&family=Single+Day&display=swap');
+
+h2.line{
+     width: 500px;
+     font-family: 'Comic Sans MS';
+     border: 5px solid gold;
+     text-align:center;
+     padding: 15px;
+     text-align: center;
+     position: absolute;
+}
+
+.black-nav{
+    background: blueviolet;
+    width: 100%;
+    padding: 15px;
+ 
+  }
+  h3.lines{
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    color: rgb(179, 210, 240);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .mains{
+    padding: 15px;
+    text-align: center;
+
+    position:relative;
+  }
+  .ab{
+    padding: 15px;
+    text-align: center;
+    position:relative;
+    border: 3px groove gold;
+    border-radius: 100px;
+  }
+
+  div.inp{
+    width: 400px;
+    height: 250px;
+    border: 3px solid gray;
+    font-size: 20px;
+    font-family: 'Single';
+    top: 600px;
+    position: absolute;
+    margin-left: 15px;
+  }
+  div.inp span{
+    color: red;
+  }
+  div.result{
+    position: absolute;
+    margin-top: 15px;
+    left: 430px;
+    width: 300px;
+    height: 300px;
+    top: 585px;
+    border: 3px solid gray;
+  }
+  div.result h2{
+    margin-left: 15px;
+  }
+
+  div.circle {
+    border: 3px groove gold;
+    border-radius: 5000px;
+    position: absolute;
+    top: 900px;
+    width: 300px;
+  }
