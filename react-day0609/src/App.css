@@ -1,0 +1,37 @@
+.number{
+  font-size: 100px;
+  color:red;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  text-shadow: 5px 5px 5px gray;
+  font-family: 'Dongle';
+}
+
+.select{
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px gray;
+  font-family: 'Dongle';
+}
+.AppView{
+  border: 3px groove gold;
+  width: 500px;;
+  border-radius: 100px;
+  text-shadow: 5px 5px 5px gray;
+  font-family: 'Dongle';
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.photo{
+  position:absolute;
+  left: 400px;
+  top: 300px;
+}
+.greenline{
+  border-color:green;
+  border-width: 10px;
+  margin-left: 30px;
+  padding: 10px 10px;
+}
