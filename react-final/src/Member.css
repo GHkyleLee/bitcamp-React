@@ -1,0 +1,222 @@
+body {
+    background: whitesmoke;
+  }
+  .accountLabel {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
+  }
+  form {
+    max-width: 550px;
+    margin: 10 auto;
+  }
+
+  .form {
+    background: #0e101c;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+ .chkMessage {
+    color: #bf1650;
+  }
+  
+  .chkMessage::before {
+    display: inline;
+    content: "⚠ ";
+  }
+  
+  .reginput {
+    width: 60%;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .phoneinput{
+    width: 70px;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .accountLabel {
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .reginput[type="submit"],
+  .reginput[type="submit"] {
+    background: #4e94f0;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    border-radius: 100px;
+  }
+  
+  .reginput[type="submit"]:hover,
+  .reginput[type="submit"]:hover {
+    background: #71b6ee;
+  }
+  
+  .reginput[type="submit"]:active,
+  .reginput[type="button"]:active,
+  .reginput[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  .reginput:disabled {
+    opacity: 0.4;
+  }
+  
+  .reginput[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  .reginput[type="submit"],
+  .reginput[type="button"],
+  .reginput[type="submit"] {
+    -webkit-appearance: none;
+  }
+  
+  .App {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .reginput[type="button"] {
+    display: block;
+    appearance: none;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  hr {
+    margin-top: 30px;
+  }
+  
+  .reginput {
+    display: block;
+  
+    margin-top: 40px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  .loginput
+  {
+    margin-top: 5px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+    width: 60%;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .loginput[type="submit"]:hover,
+  .loginput[type="submit"]:hover {
+    background: #71b6ee;
+  }
+  
+  .loginput[type="submit"]:active,
+  .loginput[type="button"]:active,
+  .loginput[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  .loginput:disabled {
+    opacity: 0.4;
+  }
+  
+  .reginput[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  .loginput[type="submit"],
+  .loginput[type="button"],
+  .loginput[type="submit"] {
+    -webkit-appearance: none;
+  }
+  .loginput[type="button"] {
+    display: block;
+    appearance: none;
+    background: #333;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  .loginput[type="submit"]:hover,
+  .loginput[type="submit"]:hover {
+    background: #71b6ee;
+  }
+  .loginput[type="submit"],
+  .loginput[type="submit"] {
+    background: #eca60d;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius: 100px;
+  }
+  .emailinput{
+    
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
